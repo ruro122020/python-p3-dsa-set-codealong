@@ -31,8 +31,3 @@ class MySet:
         for key, value in self.dictionary.items():
             set_list.append(str(key))
         return f'MySet: {{{",".join(set_list)}}}'
-     
-    
-
-
-MySet([1,2,3,4]).str()
