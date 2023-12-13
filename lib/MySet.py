@@ -14,3 +14,10 @@ class MySet:
     def add(self,value):
         self.dictionary[value] = True
         return self.dictionary
+    
+    def delete(self, value):
+        self.dictionary.pop(value, None)
+        return self
+        
+    def size(self):
+        return len(self.dictionary)
