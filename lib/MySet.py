@@ -10,3 +10,7 @@ class MySet:
         #the above code will not work becuase it will return None instead of False
         #using the 'in' key word will return true of false
         return value in self.dictionary
+    
+    def add(self,value):
+        self.dictionary[value] = True
+        return self.dictionary
